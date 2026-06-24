@@ -391,7 +391,7 @@ int main(int argc, const char* argv[])
 
         ImGui::SliderFloat("Step Size", &gSSRStepSize, 0.02f, 1.0f, "%.2f");
         ImGui::SliderInt("Max Steps", &gSSRMaxSteps, 10, 250);
-        ImGui::SliderFloat("Depth Thickness", &gSSRThickness, 0.05f, 3.0f, "%.2f");
+        ImGui::SliderFloat("Depth Thickness", &gSSRThickness, 0.05f, 10.0f, "%.2f");
 
         ImGui::Separator();
         ImGui::Text("Render Mode:");
